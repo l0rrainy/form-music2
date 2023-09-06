@@ -1,0 +1,56 @@
+body{
+    background-image: url("./img/fundo.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: aliceblue;
+     right: 1000px;
+     font-family: 'Gluten', cursive;
+    
+ }
+ 
+ fieldset{
+     width: 300px;
+     right: 350px;
+    border-radius: 20px;
+    background-color: rgba(205, 156, 205, 0.133);
+ }
+ 
+ div{
+     display: center;
+     margin-left: auto;
+     margin-right: auto;
+     width: 320px;
+     margin: 0 auto;
+ }
+ 
+ h1{
+     display: center;
+     margin-left: auto;
+     margin-right: auto;
+     width: 840px;
+     margin: 0 auto;
+     font-family: 'Gluten', cursive;
+ }
+ 
+ textarea{
+     resize: none;
+     font-family: 'Gluten', cursive;
+ }
+ 
+ input{
+     border-radius: 5px;
+     border: none;
+     border-style: groove;
+ }
+
+ img{
+   
+   
+
+}
+
+ .caixote{
+     width: 1000px;
+     height: 1310px;
+     display: flex;
+ }

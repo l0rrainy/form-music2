@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+    <h1>SescMusic</h1><br>
+<div class="caixote">
+    <div class="formulario-inteiro">
+
+    <forms>
+        
+        <fieldset><!--barrinha ao redor!-->
+
+            <legend>Informações Pessoais</legend>
+            <!--placeholder é a instrução-->
+
+            <!--required = obrigatorio -->
+            <!--label é para instruir o usuario-->
+            <label for="name">Nome</label><br>
+            <input type="text" placeholder="Digite seu nome aqui"
+            name="name" id="name" required><br><br>
+            <br>
+
+            <label  for="email">E-mail</label><br>
+            <input type="email" id="email" placeholder="Digite seu email"
+            name="email" required><br><br>
+
+            <label for="password">Senha:</label><br>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha"><br><br>
+
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Data</legend>
+            <input type="date">
+         </fieldset><br>
+
+         <fieldset>
+            <legend>Hora</legend>
+            <input type="time">
+         </fieldset><br>
+
+    </forms>
+    
+    <forms>
+        
+        <fieldset>
+            <legend>Preferências:</legend>
+
+            <label for="">Escolha seu estilo de música favorito!</label>
+            <br><br>
+            <!--type é o tipo -->
+            <!--id é a identificaçao do componente -->
+            <!--name é oque faz os radios se unirem -->
+            <input type="radio" id="tipos" name="tipo">
+            <label for="tipos">Rock</label><br>
+
+            <input type="radio" id="tipos" name="tipo">
+            <label for="tipos">MPB</label><br>
+
+            <input type="radio" id="tipos" name="tipo">
+            <label for="tipos">Pop</label><br>
+
+            <input type="radio" id="tipos" name="tipo">
+            <label for="tipos">Funk</label><br>
+
+            <input type="radio" id="tipos" name="tipo">
+            <label for="tipos">Trap</label><br>
+
+            <input type="radio" id="tipos" name="tipo">
+            <label for="tipos">Pagode</label><br>
+
+            <input type="radio" id="tipos" name="tipo">
+            <label for="tipos">Reggae</label><br>
+
+            <input type="radio" id="tipos" name="tipo">
+            <label for="tipos">Gospel</label><br>
+
+            <input type="radio" id="tipos" name="tipo">
+            <label for="tipos">Outro
+            </label><br>
+            <label for="outro"></label>
+            <input type="outro" id="outro" name="outro" placeholder="Digite outro estilo"><br><br>
+            
+        </fieldset><br>
+
+        <fieldset>
+            <label for="">Cor preferida:</label>
+            <input type="color">
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Música favorita</legend><br>
+            <!--cols=colunas, rows=linhas-->
+            <textarea placeholder="Digite aqui sua música favorita" name="comit" id="comit" cols="30" rows="10"></textarea>
+            
+        </fieldset><BR>
+
+        <fieldset>
+            <legend>Envio</legend>
+            <input type="checkbox">Eu li e aceito os Termos e Condições<br><br>
+            <button><input type="submit" value="Enviar"></button>
+
+            <button><input type="reset"></button>
+            
+        </fieldset><br>
+
+    </forms>
+
+    
+
+    </div>
+
+        <img src="./img/1999090.png">
+    
+
+
+</div>
+
+</body>
+</html>
